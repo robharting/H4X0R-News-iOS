@@ -14,6 +14,8 @@
 		362AEC6B2CA1BB4100DE6F0C /* H4X0R_News_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362AEC6A2CA1BB4100DE6F0C /* H4X0R_News_iOSTests.swift */; };
 		362AEC752CA1BB4100DE6F0C /* H4X0R_News_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362AEC742CA1BB4100DE6F0C /* H4X0R_News_iOSUITests.swift */; };
 		362AEC772CA1BB4100DE6F0C /* H4X0R_News_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362AEC762CA1BB4100DE6F0C /* H4X0R_News_iOSUITestsLaunchTests.swift */; };
+		362AEC852CA1BC8E00DE6F0C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362AEC842CA1BC8E00DE6F0C /* NetworkManager.swift */; };
+		362AEC872CA1BE1800DE6F0C /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362AEC862CA1BE1800DE6F0C /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		362AEC702CA1BB4100DE6F0C /* H4X0R-News-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "H4X0R-News-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		362AEC742CA1BB4100DE6F0C /* H4X0R_News_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0R_News_iOSUITests.swift; sourceTree = "<group>"; };
 		362AEC762CA1BB4100DE6F0C /* H4X0R_News_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0R_News_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		362AEC842CA1BC8E00DE6F0C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		362AEC862CA1BE1800DE6F0C /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		362AEC582CA1BB3F00DE6F0C /* H4X0R-News-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				362AEC832CA1BC7A00DE6F0C /* Models */,
 				362AEC592CA1BB3F00DE6F0C /* H4X0R_News_iOSApp.swift */,
 				362AEC5B2CA1BB3F00DE6F0C /* ContentView.swift */,
 				362AEC5D2CA1BB4100DE6F0C /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				362AEC762CA1BB4100DE6F0C /* H4X0R_News_iOSUITestsLaunchTests.swift */,
 			);
 			path = "H4X0R-News-iOSUITests";
+			sourceTree = "<group>";
+		};
+		362AEC832CA1BC7A00DE6F0C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				362AEC842CA1BC8E00DE6F0C /* NetworkManager.swift */,
+				362AEC862CA1BE1800DE6F0C /* PostData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362AEC852CA1BC8E00DE6F0C /* NetworkManager.swift in Sources */,
+				362AEC872CA1BE1800DE6F0C /* PostData.swift in Sources */,
 				362AEC5C2CA1BB3F00DE6F0C /* ContentView.swift in Sources */,
 				362AEC5A2CA1BB3F00DE6F0C /* H4X0R_News_iOSApp.swift in Sources */,
 			);
