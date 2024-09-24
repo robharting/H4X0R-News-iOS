@@ -48,6 +48,7 @@
 		362AEC762CA1BB4100DE6F0C /* H4X0R_News_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0R_News_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		362AEC842CA1BC8E00DE6F0C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		362AEC862CA1BE1800DE6F0C /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		369BCDE82CA287430017E4DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 		362AEC4D2CA1BB3F00DE6F0C = {
 			isa = PBXGroup;
 			children = (
+				369BCDE82CA287430017E4DF /* README.md */,
 				362AEC582CA1BB3F00DE6F0C /* H4X0R-News-iOS */,
 				362AEC692CA1BB4100DE6F0C /* H4X0R-News-iOSTests */,
 				362AEC732CA1BB4100DE6F0C /* H4X0R-News-iOSUITests */,
