@@ -7,6 +7,7 @@
 
 import Foundation
 
+// our datamodel
 class NetworkManager: ObservableObject {
     
     // Publish via @Published
